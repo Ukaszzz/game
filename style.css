@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
 }
 body {
   background-image: url("gambling.jpg");
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -24,7 +26,7 @@ h3 {
 .panel-left,
 .panel-right {
   display: inline-block;
-  width: 48%;
+  width: 55%;
   overflow: hidden;
   margin: 40px auto 0;
   text-align: center;
@@ -32,6 +34,9 @@ h3 {
 
 .panel-left p {
   font-size: 20px;
+}
+.panel-right {
+  margin-bottom: 50px;
 }
 
 .panel h3 {
@@ -60,8 +65,8 @@ div p {
 }
 
 .select img {
-  width: 250px;
-  min-height: 200px;
+  width: 150px;
+  min-height: 150px;
   margin: 20px;
   display: inline-block;
   border-radius: 40%;
@@ -78,6 +83,7 @@ button {
   transition: 0.3s;
   font-size: 40px;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 button:hover {
